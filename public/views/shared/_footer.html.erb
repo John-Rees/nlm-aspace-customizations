@@ -1,13 +1,13 @@
-<footer class="bg-primary text-white">
+<footer class="bg-primary text-white insertfooter">
  <div class="container-fluid">
   <div class="container pt-5">
     <div class="row mt-3">
       <div class="col-md-3 col-sm-6 col-6">
         <p><a href="https://www.nlm.nih.gov/socialmedia/index.html" class="text-white">Follow NLM</a></p>
         <ul class="list-inline social_media">
-          <li class="list-inline-item"><a href="https://www.facebook.com/nationallibraryofmedicine"><img src="/images/Facebook_W.svg" class="img-fluid" alt="Facebook"></a></li>
-          <li class="list-inline-item"><a href="https://twitter.com/NLM_NIH"><img src="/images/Twitter_W.svg" class="img-fluid" alt="Twitter"></a></li>
-          <li class="list-inline-item"><a href="https://www.youtube.com/user/NLMNIH"><img src="/images/YouTube_W.svg" class="img-fluid" alt="You Tube"></a></li>
+          <li class="list-inline-item"><a href="https://www.facebook.com/nationallibraryofmedicine"><img src="/assets/images/Facebook_W.svg" class="img-fluid" alt="Facebook"></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com/NLM_NIH"><img src="/assets/images/Twitter_W.svg" class="img-fluid" alt="Twitter"></a></li>
+          <li class="list-inline-item"><a href="https://www.youtube.com/user/NLMNIH"><img src="/assets/images/YouTube_W.svg" class="img-fluid" alt="You Tube"></a></li>
         </ul>
       </div>
       <div class="col-md-3 col-sm-6 col-6">
@@ -33,29 +33,24 @@
     </div>
   </div>
 </div>
-
 </footer>
+<script src="/assets/scripts/jquery.min.js"></script>
+<script src="/assets/home_assets/vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="/assets/scripts/nlm.js"></script>
+<script src="/assets/scripts/nlm_autocomplete.js"></script>
 
-<script src="//assets.nlm.nih.gov/jquery/jquery-latest.min.js"></script>
-<script src="//assets.nlm.nih.gov/jquery/jquery-migrate-latest.min.js"></script>
-<script src="home_assets/vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
-<script src="/scripts/nlm_autocomplete.js"></script>
-<script src="/scripts/home.js"></script>
-<!-- GovDelivery Subscription Overlay -->
-<script src="https://content.govdelivery.com/overlay/js/9873.js"></script>
-<!-- End GovDelivery Overlay -->
-
+<!-- aspace gray footer panel
 <div class="container-fluid panel-footer">
   <div class="row">
      <div class="col-md-12">
        <p class="footer-items">
 
-      <!-- Hide ASpace default footer
            <a href="<%= AppConfig[:frontend_proxy_url] %>">Staff Interface</a>
          | Visit <a href="http://archivesspace.org">ArchivesSpace.org</a>
          | <%= ASConstants.VERSION %>
          | <% if AppConfig[:feedback_url] && !AppConfig[:feedback_url].blank? %><a id='aspaceFeedbackLink' href='<%= AppConfig[:feedback_url]%>' target='_blank'>Send Feedback or Report a Problem</a><% end %></p>
-     -->
+
      </div>
   </div>
 </div>
+-->

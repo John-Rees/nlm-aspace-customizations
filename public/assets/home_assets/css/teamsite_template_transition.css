@@ -1,0 +1,386 @@
+/******************************
+Branding
+(_branding.scss )
+****************************/
+#barbranding {
+  font-weight: bold;
+  padding: 5px;
+  overflow: hidden;
+  display: inline-block;
+  display: block;
+ 
+/*  Change 2018-06-29  - Commented out this section */
+/*  border-radius: 6px 6px 0 0; */}
+  #barbranding h3 {
+    font-weight: bold;
+    float: left;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    padding: 2px 2px 2px 4px;
+    margin-top: 10px; }
+    
+  #barbranding p {
+    font-size: .75em;
+    font-weight: bold;
+    float: left;
+    color: white;}
+
+    #barbranding p a {
+      text-decoration: none;
+      color: white !important;
+      font-style: normal; }
+      #barbranding p a :hover {
+        text-decoration: underline; }
+        
+ #barbranding ul {
+    margin-bottom: 0px;} 
+
+    #barbranding li {
+    font-size: .9em;
+    display: inline; }
+    #barbranding li a {
+      text-decoration: none;
+      color: #fff !important;
+      -webkit-text-fill-color: #fff !important;
+      font-style: normal;
+      display: inline; }
+      #barbranding li a :hover {
+        text-decoration: underline; }
+    #barbranding li + li:before {
+      content: " | ";
+      padding: 0 10px; }
+ 
+/*Division Breadcrumb Bar Colors - Adding 2018-07-02 */
+.inclimg {
+  margin-top: 16px; }
+
+/*Division Breadcrumbs in the Branding Bar*/
+#pic-links {
+  background: #fff none repeat scroll 0 0;
+  overflow: hidden;
+  padding: 0 5px; }
+  #pic-links span {
+    color: black;
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 20px; }
+  #pic-links img {
+    float: right;
+    margin-left: 5px; }
+
+.breadcrumb-brand {
+  float: right;
+  font-weight: bold;
+  overflow: hidden;
+  margin-left: 10px;
+  text-align: right;
+  font-size: 1em;
+  margin-top: 14px;
+  padding-right: 7px;
+  display: block; }
+
+
+/* Added 7/2/2018  to see how colors would be impacted*/
+
+/* Default color scheme 
+#barbranding {
+   background-color:  #63666a;
+    color: white; } 
+*/
+   
+/* GRID  Added 6/29/2018 Needed for pages that use the Two Column and Secondary template components */
+/**********************
+GRID
+(_grid.scss)
+tinyfluidgrid.com
+***********************/
+/* CSS Document */
+/*
+ & Columns : 12 
+ & Gutter %: 20% 
+ */
+ 
+
+#body .grid_1 {
+  width: 6.6666666666667%; }
+  
+#body .grid_2 {
+  width: 15%; }
+  
+#body .grid_3 {
+  width: 23.333333333333%; }
+
+#body .grid_4 {
+  width: 31.666666666667%; }
+
+#body .grid_5 {
+  width: 40%; }
+
+#body .grid_6 {
+  width: 48.333333333333%; }
+
+#body .grid_7 {
+  width: 56.666666666667%; }
+
+#body .grid_8 {
+  width: 65%; }
+
+#body .grid_9 {
+  width: 73.333333333333%; }
+
+#body .grid_9 #primary .left {
+  margin-left: 1em; }
+
+#body .grid_10 {
+  width: 81.666666666667%; }
+
+#body .grid_11 {
+  width: 90%; }
+
+#body .grid_12 {
+  width: 98.333333333333%; }
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+  margin-left: 0.83333333333333%;
+  margin-right: 0.83333333333333%;
+  margin-bottom: 20px;
+  float: left;
+  display: block; }
+
+
+
+/* Styling for those pages that use the Seconday Column Component */
+#body #secondary h1,  #body #secondary h2, #body #secondary h3, #body #secondary h4, #body #secondary h5, #body #secondary h6 {
+    background-color: #326295;
+    color: white !important;}
+
+/* Styling for those pages that use the Seconday Column Component: Box Item w/Gray Background */
+#relatedBar ul li.blueitem {
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    background: #FFF;
+}
+
+#relatedBar ul  {
+ padding: 0;
+}
+
+#relatedBar ul li {
+    list-style-type: none;
+    line-height: 1.25em;
+    margin-bottom: 0.25em;
+}
+
+#relatedBar ul li h2 {
+    font-size: 1em;
+}
+
+
+#relatedBar h2 {
+    border-top: 2px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 0px;
+    padding: 5px 2px 5px 10px;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+
+/* Styling for those pages that use the Seconday Column Component: Related Pages */
+.left #relatedPages {
+  border-right: 1px solid #999;
+}
+
+
+.right #relatedPages {
+  border-left: 1px solid #999;
+}
+
+
+#relatedPages ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0px; }
+    
+#relatedPages ul li {
+      padding-bottom: 3px; }
+      
+#relatedPages ul li ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        font-size: 1em; }
+        
+#relatedPages ul li ul li {
+          line-height: 1.25em;
+          padding: 0;
+          margin: 0 0 6px 10px; }
+          
+#relatedPages ul li ul li p {
+            margin: 0 10px; }
+            
+#relatedPages ul li p {
+        margin: 0 10px; }
+        
+#relatedPages ul h2 {
+      margin: 10px 0 5px 0;
+      font-size: 1em;
+      padding: 5px 2px 5px 10px; }
+
+/* Styling for those pages that use the Seconday Column Component: Equal position */   
+#primary.equals {
+  width: 48%;
+  float: left; }
+
+#secondary.equals, #secondary.equal {
+  width: 48%;
+  float: right;
+  text-align: left; }
+
+
+/* Column information  Added 6/29/2018 Needed for pages that use the Two Column Template Component */
+/* _division.scss */
+#body .columnA {
+  float: left; }
+
+#body .columnB {
+  float: right; }
+  
+
+/* Media queries needed for responsive desigh components */
+@media screen and  (max-width: 799px) {
+
+#barbranding ul, #barbranding .breadcrumb-brand {
+	text-align:left;
+	float: left;
+	margin: 5px 0px 5px 3px;
+	padding-left: 2px;
+}
+
+#body .columnA, .columnB {
+    float: none; }
+    
+#body .grid_1 {
+width:100%; }
+
+#body .grid_2 {
+width:100%; }
+
+   
+#body .grid_3 {
+width:100%; }
+
+    
+#body .grid_4 {
+width:100%; }
+    
+    
+#body .grid_5 {
+width:100%; }
+    
+
+#body .grid_6 {
+width:100%; }
+    
+#body .grid_7 {
+width:100%; }
+    
+#body .grid_8 {
+width:100%; }
+    
+   
+#body .grid_9 {
+width:100%; }
+    
+#body .grid_10 {
+width:100%; }
+
+#body .grid_11 {
+width:100%; }
+    
+
+#body .grid_12 {
+width:100%; }
+    
+ }
+ 
+
+/* These styles are needed for pages that use the "List By Date, Subject, or Other Order : Template Component" */
+#projNavigation {
+ /* background: #f2f2f2; */
+  padding: 21px 30px 21px 33px;
+  border: none;
+  display: block;
+  border-bottom: 2px solid #777;
+  border-top: 2px solid #fff; }
+#projNavigation h1 {
+    color: #000; }
+    
+#projNavigation ul {
+    display: inline;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    list-style-type: none; }
+    
+#projNavigation li {
+    display: inline;
+    line-height: 1.5em; 
+    color: #326295 !important;
+}
+    
+#projNavigation a {
+    font-size: 90%;
+    font-weight: bold;
+  }
+    
+#projNavigation a:visited {
+    font-size: 90%;
+    font-weight: bold;
+    color: #1d63ad; }
+
+#return {
+    text-align: right;
+    font-size: .85em;
+}
+
+/*
+#online exhibition styles  - Added 6/29/2018 Needed for pages that use the List By Date, Subject, or Other Order : Template Component
+*/
+#listings {
+  padding: 0px 0px 30px 33px; }
+  #listings ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+    #listings ul ul {
+      list-style-type: disc;
+      list-style-image: url(/images/blue_bullet.gif);
+      padding: 0px;
+      margin-left: 54px; }
+  #listings h2 {
+   /* background: #f2f2f2; */
+    padding: 4px 0px 4px 34px;
+    margin-bottom: 5px;
+    margin-top: 19px;
+    color: #333;
+    border: none; }
+
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+
+
+/* H1 color for body */
+
+#body h1 
+{color: black !important; }
+

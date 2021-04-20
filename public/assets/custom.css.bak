@@ -1,0 +1,26 @@
+body {
+	font-size:16px;
+}
+body, h1, h2, h3, .h1, .h2, .h3 {
+	font-family:"Roboto", "Helvetica Neue", Arial, Tahoma;
+}
+
+/* GWLAI Web Team recommendation to tone down badge colors. Colors below are more subtle versions of the out-of-the-box colors. */
+.record-type-badge.resource { /*red badges for Resources */
+	color:#ef6523; 
+	border-color:#ef6523;
+}
+.record-type-badge.top_container { /*green badges for Containers */
+	color:#23ab33;
+	border-color:#23ab33;
+}
+.record-type-badge.agent {
+	color:#004065;
+	border-color:#004065;
+}
+
+/* Add margin at the top of the header so that logo doesn't hit top of page, and reduce size of image so that total size of header is unaffected */
+#header .logo {
+	margin-top:5px;
+	height:70px;
+}
