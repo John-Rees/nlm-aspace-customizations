@@ -1,0 +1,216 @@
+/* Use NLM fonts and main header throughout all of PUI*/
+@font-face {
+    font-family: "Roboto", "Helvetica Neue", Arial, Tahoma;
+    }
+    
+body {
+	font-size:16px;
+}
+body, h1, h2, h3, .h1, .h2, .h3 {
+	font-family: "Roboto", "Helvetica Neue", Arial, Tahoma;
+}
+
+/* Use official NLM colors in the header, throughout all of PUI*/
+#header {
+	background-color: #326295;
+}
+
+
+#header .h1, #header .h1 a {
+	color: white;
+	font-weight:normal;
+}
+
+/* 
+a, a:hover {
+	color:#0073AA;
+}
+*/
+
+h1, .h1 {
+	color: #004065;
+}
+
+
+/* Adjustments to header logo placement */
+#header .logo {
+    float: left;
+    height: auto;
+    padding-left: 120px;
+    }
+
+#header .row {
+    padding-bottom: 80px;
+}
+
+
+/* HMD red breadcrumb bar */
+.hmd-header nav.nojss:after, .hmd-header nav.nojss ul:after {
+  content: '.';
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+#barbranding, #breadcrumb-div {
+  display: none !important; }
+
+#main-body {
+  overflow: hidden; }
+
+/* why isn't this styling working? HMD logo is covering the entire bar, not just the logo */
+.hmd-header {
+  min-height: 50px;
+  background: #2e2e2e; /* dark gray for the whole field */
+  position: relative; }
+  .hmd-header .logo {
+    background: #a21524; /* HMD red with a bottom right radius just for the logo */
+    padding: 12px 20px;
+    border-radius: 0 0 12px 0; }
+    .hmd-header .logo img {
+      width: 93px;
+      height: 34px;
+   }
+  .hmd-header nav.nojss {
+    position: absolute;
+    top: 20px;
+    left: 154px; }
+    .hmd-header nav.nojss ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .hmd-header nav.nojss ul li {
+        float: left;
+        margin-right: 24px; }
+        .hmd-header nav.nojss ul li a {
+          color: #d8d8d8;
+          font-size: 13px;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-family: Lato, sans-serif;
+          line-height: 1em; }
+          .hmd-header nav.nojss ul li a:hover, .hmd-header nav.nojss ul li a:focus {
+            text-decoration: underline; }
+  .hmd-header nav.hasjss {
+    display: none; }
+
+.x-placeholder {
+  background: #fff;
+  width: 100%;
+  min-height: 500px;
+  font-size: 100px; }
+
+@media (max-width: 1065px) {
+  .hmd-header nav.nojss {
+    top: 10px; }
+    .hmd-header nav.nojss ul li a {
+      line-height: 1.65em; } }
+
+@media (max-width: 650px) {
+  .hmd-header {
+    padding-bottom: 10px; }
+    .hmd-header .logo {
+      padding: 8px 12px;
+      border-radius: 0 0 8px 0; }
+      .hmd-header .logo img {
+        width: 68px;
+        height: 25px; }
+    .hmd-header nav.nojss {
+      left: 110px;
+      top: 0;
+      min-height: 25px; }
+      .hmd-header nav.nojss ul li a {
+        font-size: 11px; } }
+
+@media (max-width: 450px) {
+  .hmd-header {
+    padding-bottom: 10px;
+    height: auto; }
+    .hmd-header .logo {
+      position: absolute; }
+    .hmd-header nav.nojss {
+      position: relative;
+      left: 0;
+      padding-left: 110px;
+      top: 0;
+      min-height: 25px; }
+      .hmd-header nav.nojss ul li a {
+        font-size: 11px; } }
+
+/* NLM footer */
+footer .social_media img {
+    height: 35px; }
+    
+footer {
+    display: block;
+    padding-bottom: 3em;
+}
+
+.panel-footer ul.footer-list {
+    list-style-type: none;
+    float: left;
+    text-align: left;
+}
+
+/* Style custom NLM footer content*/
+.insertfooter {
+    margin-top: 4em;
+    background-color: #326295;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container {
+    max-width: 1375px;
+}
+
+.pt-5, .py-5 {
+    padding-top: 3rem !important;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem !important;
+}
+
+/* GWU ASpace Make breadcrumbs more obvious to users */
+nav[aria-label="hierarchical navigation"] ul.breadcrumb { /* colored box */
+	background-color:#d2fba4;
+}
+nav[aria-label="hierarchical navigation"] ul.breadcrumb:before{ /* label before breadcrumb */
+	content: "This record is located within:";
+}
+.breadcrumb>li+li:before { /* two carrots between breadcrumb levels */
+  content: "\003e\00a0\003e\00a0";
+
+}
+
+/* Request boxes note */
+#spec_request {
+	margin: 1em 0;
+	background-color: #eee;
+	padding: .5em 1em;
+	border: 1px solid #ddd;
+	display: none; /* At least for now, this is overriden via JavaSciprt for certain kinds of pages where we want it to display (eventually should probably make it only output for those pages via an .erb condition or something) */
+}
+
+
+/* GWU borrowing again Tone down badge colors for enhanced accessibility. Colors below are more subtle versions of the out-of-the-box colors. */
+.record-type-badge.resource { /*red badges for Resources */
+	color:#ef6523; 
+	border-color:#ef6523;
+}
+.record-type-badge.top_container { /*green badges for Containers */
+	color:#23ab33;
+	border-color:#23ab33;
+}
+.record-type-badge.agent {
+	color:#004065;
+	border-color:#004065;
+}
