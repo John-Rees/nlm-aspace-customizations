@@ -482,7 +482,7 @@ AppConfig[:plugins] = ['local',  'lcnaf']
 #
 #AppConfig[:pui_search_results_page_size] = 10
 #AppConfig[:pui_branding_img] = 'nlm-logo-small.png'
-#AppConfig[:pui_branding_img_alt_text] = 'NLM logo'
+AppConfig[:pui_branding_img_alt_text] = 'NLM logo'
 #AppConfig[:pui_block_referrer] = true # patron privacy; blocks full 'referrer' when going outside the domain
 #
 ## The number of PDFs that can be generated (in the background) at the same time.
@@ -664,7 +664,7 @@ AppConfig[:generate_archival_object_slugs_with_cuid] = true
 #
 ## If you are planning on using ARKs, change this to a valid, registered NAAN.
 ## Institutional NAAN value to use in ARK URLs.
-#AppConfig[:ark_naan] = "99999"
+#AppConfig[:ark_naan] = "12025"
 #
 ## URL prefix to use in ARK URLs.
 ## In most cases this will be the same as the PUI URL.
