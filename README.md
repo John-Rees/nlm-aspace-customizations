@@ -1,9 +1,14 @@
 # NLM aspace customizations
 Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-ordering of display elements, etc.
 
+1. <a href="#config.rb" id="config.rb">Config.rb file</a>
+2. <a href="#pui" id="PUI">PUI</a>
+
 ## Version
 
 Tested against aspace v2.8.1
+
+
 
 # config.rb
 Configurations to the core code configuration file config.rb
@@ -20,7 +25,7 @@ Plugins
 AppConfig[:plugins] = ['local',  'lcnaf']
 ```
 
-NLM branding image alt text not in a locales file for some reason
+Branding image alt text not in a locales file for some reason
 ```
 AppConfig[:pui_branding_img_alt_text] = 'NLM logo'
 ```
@@ -77,3 +82,5 @@ ARKs - something to test later
 
 # PUI
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below.
+
+
