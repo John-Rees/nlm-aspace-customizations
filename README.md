@@ -1,8 +1,8 @@
 # NLM aspace customizations
 Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-ordering of display elements, etc.
 
-1. <a href="#config.rb" id="config.rb">Config.rb file</a>
-2. <a href="#pui" id="PUI">PUI</a>
+1. Config <a href="#user-content-config" id="config">#</a>
+2. PUI <a href="#user-content-PUI" id="PUI">#</a>
 
 ## Version
 
@@ -10,7 +10,7 @@ Tested against aspace v2.8.1
 
 
 
-# config.rb
+# config
 Configurations to the core code configuration file config.rb
 
 Change search default from OR to AND
