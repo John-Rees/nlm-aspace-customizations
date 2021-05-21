@@ -83,4 +83,17 @@ ARKs - something to test later
 # PUI
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below.
 
+Other change notes/explanations recorded as comments in-line.
 
+- assets/custom.css - custom CSS file, which overwrites the default styling. Explanations for each overwrite are in the custom.css file itself.
+- assets/favicon.ico - NIH favicon
+- assets/images/ - NLM header and footer logo files, to replace the default ArchivesSpace logo.
+- assets/js/nlm-scripts.js - GWU's javascript file that adds a message to certain pages (based on URL) with instructions for requesting boxes. linked from views/layouts/application.html.erb
+- locales/en.yml - Ruby on Rails vocabulary file, where we set the header title, welcome text on home page, and other standard vocabulary terms throughout the site. Having this file in the plugin overwrites the equivalent file in the core code.
+- views/shared/_footer.html.erb - customized footer, which is based on and overwrites the equivalent file in the core code.
+- views/shared/_header.html.erb - customized header, which is based on and overwrites the equivalent file in the core code.
+- views/shared/_hmd_crumbs.html.erb - new partial to create HMD-red navigation row. Linked in _application.html.erb
+- views/shared/_record_innards.html.erb - moved Physical Location to top of fold; imp. for offsite/onsite locations info. Replaced Scope Note with Overview/abstract at top of fold.
+- views/layouts/application.html.erb - customized shared layout file for all pages. link to javascript file (js/gw-scripts.js) was added to this file, for the purpose of adding a message to certain pages (based on URL) with instructions for requesting boxes
+- views/layout_head.html.erb - this file is used to "activate" the custom css file
+- views/welcome/show.html.erb - customized with NLM welcome language (other paragraph below search boxes comes from locales/en.yml file)
