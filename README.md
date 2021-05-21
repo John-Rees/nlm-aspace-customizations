@@ -1,15 +1,15 @@
 # NLM ArchivesSpace customizations
 Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-ordering of display elements, etc.
 
-1. Config <a href="#user-content-config" id="config">#</a>
-2. PUI <a href="#user-content-PUI" id="PUI">#</a>
+1. <a href="#config" id="config">Config</a>
+2. <a href="#PUI" id="PUI">PUI</a>
 
 ## Version
 
 Tested against aspace v2.8.1
 
 
-
+<a name="config">&nbsp;</a>
 # config
 Configurations to the core code configuration file config.rb
 
@@ -80,6 +80,7 @@ AppConfig[:generate_archival_object_slugs_with_cuid] = true
 
 ARKs - something to test later
 
+<a name="PUI">&nbsp;</a>
 # PUI
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below.
 
