@@ -13,24 +13,24 @@ Tested against aspace v2.8.1
 # config
 Configurations to the core code configuration file config.rb
 
-Change search default from OR to AND
+1. Change search default from OR to AND
 ```
 ## Configuring search operator to be AND by default - ANW-427
 AppConfig[:solr_params] = { 'mm' => '100%' }
 ```
 
-Plugins
+2. Plugins
 ```
 ## Plug-ins to load. They will load in the order specified
 AppConfig[:plugins] = ['local',  'lcnaf']
 ```
 
-Branding image alt text not in a locales file for some reason
+3. Branding image alt text not in a locales file for some reason
 ```
 AppConfig[:pui_branding_img_alt_text] = 'NLM logo'
 ```
 
-Main menu navigation tabs; true means 'hide me'
+4. Main menu navigation tabs; true means 'hide me'
 ```
 ## The following determine which 'tabs' are on the main horizontal menu
 #AppConfig[:pui_hide] = {}
@@ -43,14 +43,14 @@ AppConfig[:pui_hide][:accessions] = true
 AppConfig[:pui_hide][:classifications] = true
 #AppConfig[:pui_hide][:search_tab] = false
 ```
-Turn off circulation request function/badge (citation and PDF print remain, top right of pages)
+5. Turn off circulation request function/badge (citation and PDF print remain, top right of pages)
 ```
 ## Enable / disable PUI resource/archival object page actions
 #AppConfig[:pui_page_actions_cite] = true
 AppConfig[:pui_page_actions_request] = false
 #AppConfig[:pui_page_actions_print] = true
 ```
-Human-readale URLs. URLs based on /repo/eadid instead of /repo/randomnumberid. 
+6. Human-readale URLs. URLs based on /repo/eadid instead of /repo/randomnumberid. 
 - More aligned with how DLXS worked
 - Similar to DLXS short URL modrewrite rules
 - more stable? Meaning if you delete/re-import an existing EAD the EADID will be thew same, whereas the randomnumberid would change, thus need to manage those aspace-generated URLS closely
@@ -78,7 +78,7 @@ AppConfig[:generate_resource_slugs_with_eadid] = true
 AppConfig[:generate_archival_object_slugs_with_cuid] = true
 ```
 
-ARKs - something to test later
+7. ARKs - something to test later
 
 <a name="pui">&nbsp;</a>
 # PUI
