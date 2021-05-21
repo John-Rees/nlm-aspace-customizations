@@ -1,4 +1,4 @@
-# NLM aspace customizations
+# NLM ArchivesSpace customizations
 Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-ordering of display elements, etc.
 
 1. Config <a href="#user-content-config" id="config">#</a>
