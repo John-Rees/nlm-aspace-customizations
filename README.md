@@ -2,7 +2,7 @@
 Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-ordering of display elements, etc.
 
 1. <a href="#config" id="config">Config</a>
-2. <a href="#PUI" id="PUI">PUI</a>
+2. <a href="#pui" id="PUI">PUI</a>
 
 ## Version
 
@@ -80,7 +80,7 @@ AppConfig[:generate_archival_object_slugs_with_cuid] = true
 
 ARKs - something to test later
 
-<a name="PUI">&nbsp;</a>
+<a name="pui">&nbsp;</a>
 # PUI
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below.
 
