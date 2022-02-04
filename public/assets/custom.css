@@ -2,7 +2,7 @@
 @font-face {
     font-family: "Roboto", "Helvetica Neue", Arial, Tahoma;
     }
-    
+
 body {
 	font-size:16px;
 }
@@ -21,15 +21,6 @@ body, h1, h2, h3, .h1, .h2, .h3 {
 	font-weight:normal;
 }
 
-/* 
-a, a:hover {
-	color:#0073AA;
-}
-*/
-
-h1, .h1 {
-	color: #004065;
-}
 
 
 /* Adjustments to header logo placement */
@@ -140,7 +131,7 @@ h1, .h1 {
 /* NLM footer */
 footer .social_media img {
     height: 35px; }
-    
+
 footer {
     display: block;
     padding-bottom: 3em;
@@ -202,10 +193,7 @@ nav[aria-label="hierarchical navigation"] ul.breadcrumb:before{ /* label before 
 
 
 /* GWU borrowing again Tone down badge colors for enhanced accessibility. Colors below are more subtle versions of the out-of-the-box colors. */
-.record-type-badge.resource { /*red badges for Resources */
-	color:#ef6523; 
-	border-color:#ef6523;
-}
+
 .record-type-badge.top_container { /*green badges for Containers */
 	color:#23ab33;
 	border-color:#23ab33;
