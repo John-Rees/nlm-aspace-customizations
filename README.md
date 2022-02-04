@@ -16,7 +16,7 @@ Configurations to the core code configuration file config.rb
 1. Change search default from OR to AND
 ```
 ## Configuring search operator to be AND by default - ANW-427
-AppConfig[:solr_params] = { 'mm' => '100%' }
+AppConfig[:solr_params] = { 'q.op' => 'AND' }
 ```
 
 2. Plugins
