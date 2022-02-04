@@ -1,4 +1,4 @@
-ArchivesSpace PUI Help_Home Page Plugin
+ArchivesSpace PUI Help | Home Page Plugin
 ======================================
 
 **Forked this plugin from University of Oregon, who got it from U. Louisville. Thanks for the community sharing!**
