@@ -3,6 +3,7 @@ Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-o
 
 1. <a href="#config" id="config">Config</a>
 2. <a href="#pui" id="PUI">PUI</a>
+3. <a href="#pui" id="PUIHELP">PUI_help_home</a>
 
 ## Version
 
@@ -19,7 +20,7 @@ Configurations to the core code configuration file config.rb
 AppConfig[:solr_params] = { 'q.op' => 'AND' }
 ```
 
-2. Plugins
+2. Local Plugins
 ```
 ## Plug-ins to load. They will load in the order specified
 AppConfig[:plugins] = ['local',  'lcnaf']
@@ -80,7 +81,7 @@ AppConfig[:generate_archival_object_slugs_with_cuid] = true
 
 7. ARKs - something to test later
 
-<a name="pui">&nbsp;</a>
+<a name="PUI">&nbsp;</a>
 # PUI
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below.
 
@@ -98,3 +99,8 @@ Other change notes/explanations recorded as comments in-line.
 - views/layouts/application.html.erb - customized shared layout file for all pages. link to javascript file (js/gw-scripts.js) was added to this file, for the purpose of adding a message to certain pages (based on URL) with instructions for requesting boxes
 - views/layout_head.html.erb - this file is used to "activate" the custom css file
 - views/welcome/show.html.erb - customized with NLM welcome language (other paragraph below search boxes comes from locales/en.yml file)
+
+<a name="PUIHELP">&nbsp;</a>
+# PUI Help and Home plugin
+- Adds Help link to navigation row and text
+- Adds Home link to navigation row; destination is main Welcome screen
