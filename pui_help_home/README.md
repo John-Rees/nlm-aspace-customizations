@@ -15,7 +15,7 @@ Download/copy this /public/ directory there
 Edit `config.rb` and append:
 
 ```
-AppConfig[:plugins] << "pui_help"
+AppConfig[:plugins] << "pui_help_home"
 ```
 Edit the views/help/index.html.erb file as desired to populate your Help page.
 
