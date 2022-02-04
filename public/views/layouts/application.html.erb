@@ -6,7 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
+<!-- properties from HMD homepage template -->
+	<meta name="title" property="og:title" content="Archives and Modern Manuscripts Collections – History of Medicine – National Library of Medicine">
+	<meta name="type" property="og:type" content="website">
+	<meta name="image" property="og:image" content="https://www.nlm.nih.gov/images/NLMgeneric.jpg">
+	<meta name="image:alt" property="og:image:alt" content="National Library of Medicine (NLM)">
 
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@NLM_NIH">
+	<meta name="twitter:title" content="Archives and Modern Manuscripts Collections – History of Medicine – National Library of Medicine">
+	<meta name="twitter:image" content="https://www.nlm.nih.gov/images/NLMgeneric.jpg">
+	<meta name="twitter:image:alt" content ="National Library of Medicine (NLM)">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- end HMD propoerties -->
 
 	<link href="<%= asset_path('favicon.ico') %>" rel="shortcut icon" type="image/x-icon" />
 	<!-- <title><%=  (@page_title.blank? ? '' : "#{strip_mixed_content(@page_title)} | ") %><%= t('brand.title') %></title> --><!-- JPR turned off aspace locales calls for crafting title element-->
@@ -54,12 +70,16 @@
 
 <script src='/assets/js/nlm-scripts.js'></script><!-- request boxes block script -->
 
-<!-- Google Tag Manager -->
+<!-- NLM Google Tag Manager head code -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MT6MLL');</script>
-<!-- End Google Tag Manager -->
+<!-- End NLM Google Tag Manager -->
 </head>
 
 <body>
+	<!-- NLM Google Tag Manager body code -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MT6MLL" height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+	<!-- End NLM Google Tag Manager -->
+
 	<%= render partial: 'shared/skipnav' %>
 
 	<div class="container-fluid no-pad">
