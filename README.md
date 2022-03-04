@@ -7,7 +7,7 @@ Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-o
 
 ## Version
 
-Tested against aspace v2.8.0 (lightly) and v2.8.1 (robustly)
+Tested against aspace v2.8.1 and v3.1.1
 
 
 <a name="config">&nbsp;</a>
