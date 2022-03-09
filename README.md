@@ -23,7 +23,7 @@ AppConfig[:solr_params] = { 'q.op' => 'AND' }
 2. Local Plugins
 ```
 ## Plug-ins to load. They will load in the order specified
-AppConfig[:plugins] = ['local',  'lcnaf']
+AppConfig[:plugins] = ['local',  'lcnaf', 'pui_help_home']
 ```
 
 3. Branding image alt text not in a locales file for some reason
