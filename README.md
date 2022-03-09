@@ -82,7 +82,7 @@ AppConfig[:generate_archival_object_slugs_with_cuid] = true
 7. ARKs - something to test later
 
 <a name="pui"/>
-# PUI
+# PUI 
 
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below. Other change notes/explanations recorded as comments in-line.
 
