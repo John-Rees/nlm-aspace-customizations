@@ -86,7 +86,7 @@ AppConfig[:generate_archival_object_slugs_with_cuid] = true
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below.
 
 
-Other change notes/explanations recorded as comments in-line.
+# Other change notes/explanations recorded as comments in-line.
 
 - assets/custom.css - custom CSS file, which overwrites the default styling. Explanations for each overwrite are in the custom.css file itself.
 - assets/favicon.ico - NIH favicon
