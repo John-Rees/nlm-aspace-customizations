@@ -79,9 +79,7 @@ AppConfig[:generate_resource_slugs_with_eadid] = true
 AppConfig[:generate_archival_object_slugs_with_cuid] = true
 ```
 
-7. ARKs - something to test later
-
-<a name="pui"/>
+<a name="pui">&nbsp;</a>
 # PUI 
 
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below. Other change notes/explanations recorded as comments in-line.
@@ -99,7 +97,7 @@ Customizations to the built-in "local" plugin, specifically its "public" directo
 - views/layout_head.html.erb - this file is used to "activate" the custom css file
 - views/welcome/show.html.erb - customized with NLM welcome language (other paragraph below search boxes comes from locales/en.yml file)
 
-<a name="puihelp"/>
+<a name="puihelp">&nbsp;</a>
 # PUI Help and Home plugin
 
 - Adds Help link to navigation row and text
