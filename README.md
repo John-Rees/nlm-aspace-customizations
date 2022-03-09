@@ -83,6 +83,7 @@ AppConfig[:generate_archival_object_slugs_with_cuid] = true
 
 <a name="pui"/>
 # PUI
+
 Customizations to the built-in "local" plugin, specifically its "public" directory, found at /path/to/aspace/plugins/local/public/. These customized files are located in this repo's/public/ directory, and are also described below. Other change notes/explanations recorded as comments in-line.
 
 - assets/custom.css - custom CSS file, which overwrites the default styling. Explanations for each overwrite are in the custom.css file itself.
@@ -100,5 +101,6 @@ Customizations to the built-in "local" plugin, specifically its "public" directo
 
 <a name="puihelp"/>
 # PUI Help and Home plugin
+
 - Adds Help link to navigation row and text
 - Adds Home link to navigation row; destination is main Welcome screen
