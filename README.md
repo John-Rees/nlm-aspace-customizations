@@ -91,7 +91,6 @@ Customizations to the built-in "local" plugin, specifically its "public" directo
 - locales/en.yml - Ruby on Rails vocabulary file, where we set the header title, welcome text on home page, and other standard vocabulary terms throughout the site. Having this file in the plugin overwrites the equivalent file in the core code.
 - views/shared/_footer.html.erb - customized footer, which is based on and overwrites the equivalent file in the core code.
 - views/shared/_header.html.erb - customized header, which is based on and overwrites the equivalent file in the core code.
-- views/shared/_hmd_crumbs.html.erb - new partial to create HMD-red navigation row. Linked in _application.html.erb
 - views/shared/_record_innards.html.erb - moved Physical Location to top of fold; imp. for offsite/onsite locations info. Replaced Scope Note with Overview/abstract at top of fold.
 - views/layouts/application.html.erb - customized shared layout file for all pages. link to javascript file (js/gw-scripts.js) was added to this file, for the purpose of adding a message to certain pages (based on URL) with instructions for requesting boxes
 - views/layout_head.html.erb - this file is used to "activate" the custom css file
