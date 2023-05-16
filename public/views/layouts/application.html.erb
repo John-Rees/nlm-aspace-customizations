@@ -70,7 +70,12 @@
   	<%= render partial: 'shared/navigation' %>
 </div>
 
-
+	<section id="content" class="container-fluid">
+		<a name="maincontent" id="maincontent"></a>
+		<%= flash_messages %>
+		
+		<%= yield %>
+	</section>
 
 	<script  type="text/javascript" >
 		$(".upper-record-details .note-content").each(function(index, element){$(this).readmore(<%= AppConfig[:pui_readmore_max_characters] %>)});
