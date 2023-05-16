@@ -182,14 +182,6 @@ nav[aria-label="hierarchical navigation"] ul.breadcrumb:before{ /* label before 
 
 }
 
-/* Request boxes note */
-#spec_request {
-	margin: 1em 0;
-	background-color: #eee;
-	padding: .5em 1em;
-	border: 1px solid #ddd;
-	display: none; /* At least for now, this is overriden via JavaSciprt for certain kinds of pages where we want it to display (eventually should probably make it only output for those pages via an .erb condition or something) */
-}
 
 
 /* GWU borrowing again Tone down badge colors for enhanced accessibility. Colors below are more subtle versions of the out-of-the-box colors. */
