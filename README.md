@@ -19,6 +19,30 @@ Configurations to the core code configuration file config.rb
 ## Configuring search operator to be AND by default - ANW-427
 AppConfig[:solr_params] = { 'q.op' => 'AND' }
 ```
+config-v.3.4.1.rb PUI inheritance adjustments:
+## PUI Inheritance
+## Define the fields for a record type that are inherited from ancestors
+## if they don't have a value in the record itself.
+## This is used in common/record_inheritance.rb and was developed to support
+## the public UI application.
+## Note - any changes to record_inheritance config will require a reindex of pui
+## records to take affect. To do this remove files from indexer_pui_state
+AppConfig[:record_inheritance] = {
+  :archival_object => {
+    :inherited_fields => [
+                          {
+                            :property => 'title',
+                            :inherit_directly => true
+                          },
+                          {
+                            :property => 'component_id',
+                            :inherit_directly => false
+                          },
+                         
+                         ]
+  }
+}
+```
 
 2. Local Plugins
 ```
