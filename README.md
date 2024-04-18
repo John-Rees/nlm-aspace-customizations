@@ -20,6 +20,7 @@ Configurations to the core code configuration file config.rb
 AppConfig[:solr_params] = { 'q.op' => 'AND' }
 ```
 config-v.3.4.1.rb PUI inheritance adjustments:
+```
 ## PUI Inheritance
 ## Define the fields for a record type that are inherited from ancestors
 ## if they don't have a value in the record itself.
