@@ -19,7 +19,7 @@ Configurations to the core code configuration file config.rb
 ## Configuring search operator to be AND by default - ANW-427
 AppConfig[:solr_params] = { 'q.op' => 'AND' }
 ```
-config-v.3.4.1.rb PUI inheritance adjustments:
+config-v.3.4.1.rb PUI inheritance adjustments to remove notes etc. inheriting from the resource record to the archival object view (really messy):
 ```
 ## PUI Inheritance
 ## Define the fields for a record type that are inherited from ancestors
