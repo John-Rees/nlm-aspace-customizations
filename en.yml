@@ -28,7 +28,7 @@ en:
     welcome_head: History of Medicine Finding Aids
     welcome_message: |
       <p><strong>History of Medicine Finding Aids</strong> is the central access point to finding aids describing archival and manuscript collections held across the National Library of Medicine.</p>
-                     <p>These guides offer access points to large aggregations of materials and may not represent the entirety of holdings in each Collecting Area. If you do not find what you are looking for, please also consult the <a href="https://catalog.nlm.nih.gov/discovery/search?vid=01NLM_INST:01NLM_INST" target="_blank">LocatorPlus Catalog</a> or contact the NLM Support Center.</p>
+                     <p>These guides offer access points to large aggregations of materials and do not represent the entirety of holdings in any of the Collecting Areas. If you do not find what you are looking for, please also consult the <a href="https://catalog.nlm.nih.gov/discovery/search?vid=01NLM_INST:01NLM_INST" target="_blank">LocatorPlus Catalog</a> or contact the NLM Support Center.</p>
                      <p>New finding aids are released periodically as new collections become available.</p>
     welcome_search_label: "Find what you're looking for:"
     welcome_page_title: NLM  of Medicine Finding Aids
