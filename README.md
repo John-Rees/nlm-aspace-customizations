@@ -4,6 +4,7 @@ Local adjustments to NLM Aspace pui for config settings, branding, layouts, re-o
 1. <a href="#config" id="config">Config</a>
 2. <a href="#pui" id="pui">PUI</a>
 3. <a href="#puihelp" id="puihelp">PUI_help_home</a>
+4. Alma/Primo Get it
 
 ## Version
 
