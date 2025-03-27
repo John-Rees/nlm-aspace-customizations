@@ -127,3 +127,10 @@ Customizations to the built-in "local" plugin, specifically its "public" directo
 - lives in **/path-to-aspace/plugins**
 - Adds Help link to navigation row and text
 - Adds Home link to navigation row; destination is main Welcome screen
+
+# Primo request
+- a plugin forked from University of Oregon
+- Provides direct collection fulfillment service
+- adds "Get It" request button to every Archival Object in PUI
+- Requires MMS ID in string2 aspace field; if none, 'more info' error message displays
+- uses Alma MMSID and Primo search API to send customers from Archival Object to catalog record Get It view in Primo
