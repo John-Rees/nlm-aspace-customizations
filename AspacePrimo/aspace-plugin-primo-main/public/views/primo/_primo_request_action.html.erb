@@ -1,0 +1,20 @@
+<% 
+linkbuilder = PrimoLinkBuilder.new(record)
+%>
+  <%# 
+    Page action button that links to the link generated from the primolinkbuilder
+    target="_blank" allows the response to load in a new window/tab
+    target="_top" allows the response on the current page at the highest level frame.
+    New code added to separate keep user on same page if error, otherwise redirect to new tab
+   %>  
+<%
+  toDisplay = "_blank"
+  if linkbuilder.get_link == "/custom"
+    toDisplay = "_top"
+  end
+%>
+  <a class="btn btn-default page_action" target="<%=toDisplay%>" href="<%=linkbuilder.get_link%>"> 
+<i class="fa fa-external-link fa-3x"></i><br/><%=t('primo.Get it')%></a>
+<%# i class indicates icon button, t(key, options{}) operator is to translate (I18n#translate) %>
+
+
